@@ -99,7 +99,7 @@
     cursor: pointer;
 }
 .btn-sm{
-    font-size: 10px;
+    font-size: 15px;
     padding: 7px 13px;
     margin: 10px 0;
 }
@@ -241,43 +241,74 @@
 }
 
 /* ContactMe design. */
-.contactform{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 80%;
-    padding: 0 34px;
-    margin:  88px;
-}
-.contactform h1{
-    font-family: 'Source Code Pro', monospace;
-}
- 
-.contactform form div{
-    padding: 10px 0;
+
+.containerForm{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
 }
-.contactform form  {
-   margin: 0 40px;
-}
-.contactform form div input{
-    border-radius: 5px;
-    margin: 6px 0 0 0;
-    padding: 3px;
-}
-#emailHelp{
-    font-size: 11px;
-    color: midnightblue;
-    margin: 0 5px;
-    padding: 3px 0 0 0;
-}
-#form-check{
-    flex-direction: row;
-}
-#form-check input{
-    width: 24px;
-    margin: 3px 0;
+
+.containerForm form{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
+.inputBox{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.inputBox input[type="text"], .inputBox input[type="email"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 2px solid rgba(0,0,0,0.2);
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.inputBox textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 2px solid rgba(0,0,0,0.2);
+    padding: 2px 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.placeholder{
+    font-size: 16px;
+}
+
+.alert{
+    width: 100%;
+    background: rgb(207, 174, 27);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
 /* JMedia */
 
 @media (max-width: 500px){ 
