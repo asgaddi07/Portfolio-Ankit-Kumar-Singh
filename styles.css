@@ -308,8 +308,8 @@
     font-weight: 900;
     display: none;
 }
-/* JMedia */
 
+/* JMedia */
 @media (max-width: 500px){ 
     .buttons{
      font-size: 6px;
@@ -323,5 +323,4 @@
     .main,.contactform{
      margin: 50px 8px;
     }
-   
   }
