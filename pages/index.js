@@ -10,7 +10,6 @@ document.querySelector('.hamburger').addEventListener("click", () => {
         setTimeout(() => {
             document.querySelector('.cross').style.display = 'inline'
         }, 300)
-
     }
 })
 
